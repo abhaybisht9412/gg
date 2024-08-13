@@ -5,10 +5,10 @@ use Aws\S3\S3Client;
 use Aws\S3\Exception\S3Exception;
 
 // AWS S3 configuration
-$bucketName = 'your-bucket-name';
-$region = 'your-region'; // e.g., 'us-east-1'
-$accessKey = 'your-access-key';
-$secretKey = 'your-secret-key';
+$bucketName = 'my-website-uploads-gr';
+$region = 'us-east-1'; // e.g., 'us-east-1'
+$accessKey = 'AKIAQMEY6BIOLROVHK4R';
+$secretKey = 'b5Uvah3nd2UsvRpub/M4OAHvQ6cQlA/ckfzJWoWm';
 
 // Create an S3 client
 $s3 = new S3Client([
